@@ -1,0 +1,17 @@
+.footer-gral {
+    background-color: purple;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+    height: 30%;
+    border-radius: 12px;
+    align-items: center;
+    margin: 10px;
+}
+
+.footer-text{
+    font-size: 20px;
+    padding: 10px;
+}
+

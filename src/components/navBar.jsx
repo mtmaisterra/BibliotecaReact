@@ -25,7 +25,7 @@ function NavBar() {
                         <div className='nav-Search'>
                             <div className='barra-Search'>
                                 <label className='label-nav'>
-                                   {/*  <span aria-hidden="true" className=''>
+                                    {/*  <span aria-hidden="true" className=''>
                                     </span> */}
                                     <select aria-label="select-nav" className='select-nav'>
                                         <option value='all'>TODO</option>
@@ -37,7 +37,7 @@ function NavBar() {
                                         <option value='advanced'>AVANZADO</option>
                                     </select>
                                 </label>
-                            </div>                            
+                            </div>
                         </div>
                         <a href="/ingresar.jsx" className='enlace-nav'>
                             ACCEDER
