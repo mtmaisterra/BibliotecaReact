@@ -1,26 +1,54 @@
 import React from 'react';
-import { useHistory } from 'react-router-dom';
+import '../estilos/navBar.css';
 
 function NavBar() {
-    const history = useHistory();
-
-    const handleButtonClick = () => {
-        history.push('/Ingresar');
-    }
     return (
-        <div className='h-10 justify-around  bg-morado'>
-
-            <div className='w-full justify-center items-center mx-5'>
-                {/* ="./registrar" className='w-1/2 text-current no-underline h-4 p-10 mx-4 text-white bg-morado text-center border-2 rounded-xl text-xl'>
-                        registrar */}
-            </div>
-            <button onClick={handleButtonClick} className='mx-10 p-5 '>
-                <p className='w-1/2 h-4 p-2 mx-4 text-white text-center text-xl bg-morado'>
-                    Ingresar
-                </p>
-            </button>
-
-        </div>
+        <>
+            <nav className='body-div'>
+                <div class="navBar" >
+                    <div className='div-nombre-nav'>
+                        <p className='p-nav'>
+                            BIBLIOTECA "EL CHACHO"
+                        </p>
+                    </div>
+                    <div className='div-nav'>
+                        <div className='misLibros'>
+                            <a href="/misLibros.jsx" className='enlace-nav'>
+                                MIS LIBROS
+                            </a>
+                        </div>
+                        <div className='explorar'>
+                            <a href="/explorar.jsx" className='enlace-nav'>
+                                EXPLORAR
+                            </a>
+                        </div>
+                        <div className='nav-Search'>
+                            <div className='barra-Search'>
+                                <label className='label-nav'>
+                                   {/*  <span aria-hidden="true" className=''>
+                                    </span> */}
+                                    <select aria-label="select-nav" className='select-nav'>
+                                        <option value='all'>TODO</option>
+                                        <option value='title'>TÍTULO</option>
+                                        <option value='author'>AUTOR</option>
+                                        <option value='text'>TEXTO</option>
+                                        <option value='subject'>TEMA</option>
+                                        <option value='lists'>LISTAS</option>
+                                        <option value='advanced'>AVANZADO</option>
+                                    </select>
+                                </label>
+                            </div>                            
+                        </div>
+                        <a href="/ingresar.jsx" className='enlace-nav'>
+                            ACCEDER
+                        </a>
+                        <a href="/registrar.jsx" className='enlace-nav'>
+                            REGISTRARSE
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </>
     )
 }
 export default NavBar;
