@@ -27,22 +27,19 @@ function NavBar() {
                                 <label className='label-nav'>
                                     {/*  <span aria-hidden="true" className=''>
                                     </span> */}
-                                    <select aria-label="select-nav" className='select-nav'>
+                                    <select aria-label="select-nav" className='enlace-nav'>
                                         <option value='all'>TODO</option>
                                         <option value='title'>TÍTULO</option>
                                         <option value='author'>AUTOR</option>
-                                        <option value='text'>TEXTO</option>
                                         <option value='subject'>TEMA</option>
-                                        <option value='lists'>LISTAS</option>
-                                        <option value='advanced'>AVANZADO</option>
                                     </select>
                                 </label>
                             </div>
                         </div>
-                        <a href="/ingresar.jsx" className='enlace-nav'>
+                        <a href="./ingresar/ingresar.jsx" className='enlace-nav'>
                             ACCEDER
                         </a>
-                        <a href="/registrar.jsx" className='enlace-nav'>
+                        <a href="./registro/registrar.jsx" className='enlace-nav'>
                             REGISTRARSE
                         </a>
                     </div>
