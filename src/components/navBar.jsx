@@ -4,7 +4,7 @@ import '../estilos/navBar.css';
 import Acceder from '../pages/Acceder.jsx';
 import Crear from '../pages/Crear.jsx';
 
-export default function NavBar() {
+function NavBar() {
     return (
         <Router>
             <nav className='body-div'>
@@ -35,3 +35,4 @@ export default function NavBar() {
         </Router>
     )
 };
+export default NavBar;
