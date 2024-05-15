@@ -1,6 +1,11 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBook } from "@fortawesome/free-solid-svg-icons";
+import pdfFile1 from '../books/ElUltimoDeseo.pdf';
+import pdfFile2 from '../books/LaCiudadDeLosFantasmas.pdf';
+import pdfFile3 from '../books/ElHombreDelCastillo.pdf';
+import pdfFile4 from '../books/LaChicaDelTren.pdf';
+import pdfFile5 from '../books/LaVidaInvisibleDeAddieLarue.pdf';
 import '../estilos/libros.css';
 
 export default function Novedades ()  {
@@ -22,14 +27,13 @@ export default function Novedades ()  {
                             <br></br>
                             <br></br>
                         </p>
-                        <button className="button">
-                            <p className="button-content">
+                        <a href={pdfFile1} target="_blank" rel="noopener noreferrer" className="button-content">
+                            <button className="button">
                                 <span className='button-icon'>
                                     <FontAwesomeIcon icon={faBook} />
                                 </span>
-                                Leer
-                            </p>
-                        </button>
+                                Leer </button>
+                        </a>
                     </div>
                     <div className='card'>
                         <img className='card-img' src='./laCiudadDeLosFantasmas.jpg' />
@@ -43,15 +47,13 @@ export default function Novedades ()  {
                             <br></br>
                             <br></br>
                         </p>
-                        <button className="button">
-                            <p className="button-content">
+                        <a href={pdfFile2} target="_blank" rel="noopener noreferrer" className="button-content">
+                            <button className="button">
                                 <span className='button-icon'>
                                     <FontAwesomeIcon icon={faBook} />
                                 </span>
-                                Leer
-                            </p>
-                        </button>
-
+                                Leer </button>
+                        </a>
                     </div>
                     <div className='card'>
                         <img className='card-img' src='./elHombreDelCastillo.jpg' />
@@ -64,14 +66,13 @@ export default function Novedades ()  {
                             <br></br>
                             <br></br>
                         </p>
-                        <button className="button">
-                            <p className="button-content">
+                        <a href={pdfFile3} target="_blank" rel="noopener noreferrer" className="button-content">
+                            <button className="button">
                                 <span className='button-icon'>
                                     <FontAwesomeIcon icon={faBook} />
                                 </span>
-                                Leer
-                            </p>
-                        </button>
+                                Leer </button>
+                        </a>
                     </div>
                     <div className='card'>
                         <img className='card-img' src='./laChicaDelTren.jpg' />
@@ -82,14 +83,13 @@ export default function Novedades ()  {
                             Cuando la mujer desaparece misteriosamente, Rachel se involucra en la investigación.
                             Un thriller psicológico lleno de giros inesperados y secretos oscuros.
                         </p>
-                        <button className="button">
-                            <p className="button-content">
+                        <a href={pdfFile4} target="_blank" rel="noopener noreferrer" className="button-content">
+                            <button className="button">
                                 <span className='button-icon'>
                                     <FontAwesomeIcon icon={faBook} />
                                 </span>
-                                Leer
-                            </p>
-                        </button>
+                                Leer </button>
+                        </a>
                     </div>
                     <div className='card'>
                         <img className='card-img' src='./laVidaInvisible.jpg' />
@@ -100,14 +100,13 @@ export default function Novedades ()  {
                             pero a cambio, nadie puede recordarla. A lo largo de los siglos,
                             lucha por dejar su huella en el mundo y encontrar el amor verdadero.
                         </p>
-                        <button className="button">
-                            <p className="button-content">
+                        <a href={pdfFile5} target="_blank" rel="noopener noreferrer" className="button-content">
+                            <button className="button">
                                 <span className='button-icon'>
                                     <FontAwesomeIcon icon={faBook} />
                                 </span>
-                                Leer
-                            </p>
-                        </button>
+                                Leer </button>
+                        </a>
                     </div>
                 </div>
             </div>

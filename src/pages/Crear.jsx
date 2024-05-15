@@ -1,14 +1,16 @@
 import React from 'react';
-import Registrar from './Registrar';
+import Registrar from '../components/Registrar';
 import NavBar from '../components/navBar';
+import Footer from '../components/footer';
 
 function Crear() {
     return (
         <>
+            <NavBar />
             <div>
-                <NavBar />
                 <Registrar />
             </div>
+            <Footer />
         </>
     )
 };
