@@ -1,7 +1,9 @@
 import React from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBook } from "@fortawesome/free-solid-svg-icons";
 import '../estilos/libros.css';
 
-const Novedades = () => {
+export default function Novedades ()  {
     return (
         <>
             <div>
@@ -20,8 +22,13 @@ const Novedades = () => {
                             <br></br>
                             <br></br>
                         </p>
-                        <button class="button">
-                            <span class="button-content">Descargar </span>
+                        <button className="button">
+                            <p className="button-content">
+                                <span className='button-icon'>
+                                    <FontAwesomeIcon icon={faBook} />
+                                </span>
+                                Leer
+                            </p>
                         </button>
                     </div>
                     <div className='card'>
@@ -36,14 +43,19 @@ const Novedades = () => {
                             <br></br>
                             <br></br>
                         </p>
-                        <button class="button">
-                            <span class="button-content">Descargar </span>
+                        <button className="button">
+                            <p className="button-content">
+                                <span className='button-icon'>
+                                    <FontAwesomeIcon icon={faBook} />
+                                </span>
+                                Leer
+                            </p>
                         </button>
 
                     </div>
                     <div className='card'>
                         <img className='card-img' src='./elHombreDelCastillo.jpg' />
-                        <p className='card-title'>EL PRINCIPITO</p>
+                        <p className='card-title'>EL HOMBRE DEL CASTILLO</p>
                         <p className='card-author'>Philip K. Dick</p>
                         <p className='card-description'>
                             En un mundo alternativo donde las Potencias del Eje ganaron la Segunda Guerra Mundial, los Estados Unidos están divididos entre Japón y Alemania.
@@ -52,10 +64,14 @@ const Novedades = () => {
                             <br></br>
                             <br></br>
                         </p>
-                        <button class="button">
-                            <span class="button-content">Descargar </span>
+                        <button className="button">
+                            <p className="button-content">
+                                <span className='button-icon'>
+                                    <FontAwesomeIcon icon={faBook} />
+                                </span>
+                                Leer
+                            </p>
                         </button>
-
                     </div>
                     <div className='card'>
                         <img className='card-img' src='./laChicaDelTren.jpg' />
@@ -66,8 +82,13 @@ const Novedades = () => {
                             Cuando la mujer desaparece misteriosamente, Rachel se involucra en la investigación.
                             Un thriller psicológico lleno de giros inesperados y secretos oscuros.
                         </p>
-                        <button class="button">
-                            <span class="button-content">Descargar </span>
+                        <button className="button">
+                            <p className="button-content">
+                                <span className='button-icon'>
+                                    <FontAwesomeIcon icon={faBook} />
+                                </span>
+                                Leer
+                            </p>
                         </button>
                     </div>
                     <div className='card'>
@@ -79,13 +100,17 @@ const Novedades = () => {
                             pero a cambio, nadie puede recordarla. A lo largo de los siglos,
                             lucha por dejar su huella en el mundo y encontrar el amor verdadero.
                         </p>
-                        <button class="button">
-                            <span class="button-content">Descargar </span>
+                        <button className="button">
+                            <p className="button-content">
+                                <span className='button-icon'>
+                                    <FontAwesomeIcon icon={faBook} />
+                                </span>
+                                Leer
+                            </p>
                         </button>
                     </div>
                 </div>
             </div>
         </>
-    );
+    )
 };
-export default Novedades;

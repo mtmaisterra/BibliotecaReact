@@ -1,7 +1,10 @@
 import React from 'react';
 import '../estilos/navBar.css';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import Acceder from '../pages/Acceder.jsx';
+import Crear from '../pages/Crear.jsx'
 
-function NavBar() {
+export default function NavBar() {
     return (
         <>
             <nav className='body-div'>
@@ -12,40 +15,25 @@ function NavBar() {
                         </p>
                     </div>
                     <div className='div-nav'>
-                        <div className='misLibros'>
-                            <a href="/misLibros.jsx" className='enlace-nav'>
-                                MIS LIBROS
-                            </a>
-                        </div>
-                        <div className='explorar'>
-                            <a href="/explorar.jsx" className='enlace-nav'>
-                                EXPLORAR
-                            </a>
-                        </div>
-                        <div className='nav-Search'>
-                            <div className='barra-Search'>
-                                <label className='label-nav'>
-                                    {/*  <span aria-hidden="true" className=''>
-                                    </span> */}
-                                    <select aria-label="select-nav" className='enlace-nav'>
-                                        <option value='all'>TODO</option>
-                                        <option value='title'>TÍTULO</option>
-                                        <option value='author'>AUTOR</option>
-                                        <option value='subject'>TEMA</option>
-                                    </select>
-                                </label>
-                            </div>
-                        </div>
-                        <a href="./ingresar/ingresar.jsx" className='enlace-nav'>
-                            ACCEDER
-                        </a>
-                        <a href="./registro/registrar.jsx" className='enlace-nav'>
-                            REGISTRARSE
-                        </a>
+                    <Router>
+                            <Routes>
+                                <Route path="/Acceder" element={<Acceder />} />
+                                <Route path="/Crear" element={<Crear />} />
+                            </Routes>
+                            <p>
+                                <Link to="/Acceder" className='enlace-nav'>
+                                    ACCEDER
+                                </Link>
+                            </p>
+                            <p>
+                                <Link to="/Crear" className='enlace-nav'>
+                                    REGISTRAR
+                                </Link>
+                            </p>
+                        </Router>
                     </div>
                 </div>
             </nav>
         </>
     )
-}
-export default NavBar;
+};

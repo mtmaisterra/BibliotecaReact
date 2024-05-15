@@ -1,7 +1,14 @@
 import React from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBook } from "@fortawesome/free-solid-svg-icons";
+import pdfFile1 from '../books/OrgulloYPrejuicio.pdf';
+import pdfFile2 from '../books/LaDivinaComedia.pdf';
+import pdfFile3 from '../books/ElPrincipito.pdf';
+import pdfFile4 from '../books/1984.pdf';
+import pdfFile5 from '../books/CienAñosDeSoledad.pdf';
 import '../estilos/libros.css';
 
-const Clasicos = () => {
+export default function Clasicos() {
     return (
         <>
             <div>
@@ -15,10 +22,13 @@ const Clasicos = () => {
                         <p className='card-author'>Jane Austen</p>
                         <p className='card-description'>
                             Esta novela clásica sigue la historia de Elizabeth Bennet y su complicada relación con el orgulloso Sr. Darcy.</p>
-                        <button class="button">
-                            <span class="button-content">Descargar </span>
-                        </button>
-
+                        <a href={pdfFile1} target="_blank" rel="noopener noreferrer" className="button-content">
+                            <button className="button">
+                                <span className='button-icon'>
+                                    <FontAwesomeIcon icon={faBook} />
+                                </span>
+                                Leer </button>
+                        </a>
                     </div>
                     <div className='card'>
                         <img className='card-img' src='./laDivinaComedia.jpg' />
@@ -27,10 +37,13 @@ const Clasicos = () => {
                         <p className='card-description'>
                             Un épico poema que narra el viaje del protagonista a través del Infierno, el Purgatorio y el Paraíso.
                         </p>
-                        <button class="button">
-                            <span class="button-content">Descargar </span>
-                        </button>
-
+                        <a href={pdfFile2} target="_blank" rel="noopener noreferrer" className="button-content">
+                            <button className="button">
+                                <span className='button-icon'>
+                                    <FontAwesomeIcon icon={faBook} />
+                                </span>
+                                Leer </button>
+                        </a>
                     </div>
                     <div className='card'>
                         <img className='card-img' src='./elPrincipito.jpg' />
@@ -39,10 +52,14 @@ const Clasicos = () => {
                         <p className='card-description'>
                             Un pequeño príncipe que viaja por diferentes planetas y aprende valiosas lecciones sobre la vida y el amor.
                         </p>
-                        <button class="button">
-                            <span class="button-content">Descargar </span>
-                        </button>
-
+                        <a href={pdfFile3} target="_blank" rel="noopener noreferrer" className="button-content">
+                            <button className="button">
+                                <span className='button-icon'>
+                                    <FontAwesomeIcon icon={faBook} />
+                                </span>
+                                Leer
+                            </button>
+                        </a>
                     </div>
                     <div className='card'>
                         <img className='card-img' src='./1984.jpg' />
@@ -51,10 +68,14 @@ const Clasicos = () => {
                         <p className='card-description'>
                             Una distopía clásica que presenta un mundo totalitario donde la privacidad y la libertad están amenazadas.
                         </p>
-                        <button class="button">
-                            <span class="button-content">Descargar </span>
-                        </button>
-
+                        <a href={pdfFile4} target="_blank" rel="noopener noreferrer" className="button-content">
+                            <button className="button">
+                                <span className='button-icon'>
+                                    <FontAwesomeIcon icon={faBook} />
+                                </span>
+                                Leer
+                            </button>
+                        </a>
                     </div>
                     <div className='card'>
                         <img className='card-img' src='./cienAñosDeSoledad.jpg' />
@@ -63,14 +84,18 @@ const Clasicos = () => {
                         <p className='card-description'>
                             Una saga familiar que abarca varias generaciones en el pueblo ficticio de Macondo.
                         </p>
-                        <button class="button">
-                            <span class="button-content">Descargar </span>
-                        </button>
-
+                        <a href={pdfFile5} target="_blank" rel="noopener noreferrer" className="button-content">
+                            <button className="button">
+                                <span className='button-icon'>
+                                    <FontAwesomeIcon icon={faBook} />
+                                </span>
+                                Leer
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
         </>
     );
 };
-export default Clasicos;
+
