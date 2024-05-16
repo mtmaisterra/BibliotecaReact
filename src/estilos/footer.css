@@ -15,3 +15,15 @@
     padding: 10px;
 }
 
+/* Media Query para pantallas menores a 600px */
+@media (max-width: 600px) {
+    .footer-gral {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-text {
+        font-size: 16px;
+    }
+}
+

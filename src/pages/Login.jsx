@@ -10,19 +10,19 @@ function Login() {
             </div>
             <div>
                 <form className="form">
-                    <p className="form-title">Inicia sesión en tu cuenta</p>
-                    <div className="input-container">
+                    <h3 className="title">Inicia sesión en tu cuenta</h3>
+                    <div className="container">
                         <input placeholder="Ingrese correo" type="email" />
                     </div>
-                    <div className="input-container">
+                    <div className="container">
                         <input placeholder="Ingrese contraseña" type="password" />
                     </div>
-                    <button className="button-submit" type="submit">
+                    <button className="submit" type="submit">
                         Iniciar sesión
                     </button>
-                    <p className="signup-link">
+                    <p className="sign">
                         ¿No tienes cuenta?
-                        <a href="./pages/Registrar">Regístrate</a>
+                        <a className='sign' href="./pages/Register">Regístrate</a>
                     </p>
                 </form>
             </div>

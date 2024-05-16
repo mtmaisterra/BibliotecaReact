@@ -1,0 +1,44 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+    margin: 10%;
+    padding: 5%;
+    background-color: rgb(115, 112, 112);
+    border: 2em solid black;
+    border-radius: 4em;
+    justify-content: center;
+}
+
+.title {
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 10em;
+    font-family: 'Roboto';
+}
+
+.container, .sign {
+    width: 50%;
+    height: 2%;
+    margin: 5%;
+    padding: 2%;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 4em;
+    font-family: 'Roboto';
+    text-decoration: none;
+}
+.submit{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 8px;
+    font-family: 'Roboto';
+    padding: 4%;
+    background-color: blue;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4em;
+}

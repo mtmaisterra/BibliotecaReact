@@ -11,7 +11,7 @@ function Register() {
             <div>
                 <form className="form">
                     <h3 className="title">Regístrate </h3>
-                    <div className="flex">
+                    <div className="container">
                         <label>
                             <input className="input" type="text" placeholder="Nombres" required="" />
                             <span>Nombres</span>
@@ -34,7 +34,7 @@ function Register() {
                         <span>Confirme contraseña</span>
                     </label>
                     <button className="submit">Registrar</button>
-                    <p className="signin">¿Ya tiene cuenta? <a href="../pages/Ingresar.jsx">Signin</a> </p>
+                    <p className="sign">¿Ya tiene cuenta? <a href="../pages/Login.jsx">Accede</a> </p>
                 </form>
             </div>
             <div>
