@@ -1,7 +1,7 @@
 import React from 'react';
 import '../estilos/footer.css';
 
-export default function Footer() {
+ function Footer() {
   const year = new Date().getFullYear();
   return (
     <>
@@ -11,3 +11,4 @@ export default function Footer() {
     </>
   )
 };
+export default Footer;

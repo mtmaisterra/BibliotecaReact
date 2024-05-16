@@ -8,7 +8,7 @@ import pdfFile4 from '../books/LaChicaDelTren.pdf';
 import pdfFile5 from '../books/LaVidaInvisibleDeAddieLarue.pdf';
 import '../estilos/libros.css';
 
-export default function Novedades ()  {
+export default function Novedades() {
     return (
         <>
             <div>
@@ -24,7 +24,6 @@ export default function Novedades ()  {
                             Este es el primer libro de la famosa saga de fantasía “The Witcher”.
                             Sigue las aventuras del cazador de monstruos Geralt de Rivia mientras lucha
                             contra criaturas míticas y se enfrenta a dilemas morales.
-                            <br></br>
                             <br></br>
                         </p>
                         <a href={pdfFile1} target="_blank" rel="noopener noreferrer" className="button-content">
@@ -44,8 +43,6 @@ export default function Novedades ()  {
                             <br></br>
                             <br></br>
                             <br></br>
-                            <br></br>
-                            <br></br>
                         </p>
                         <a href={pdfFile2} target="_blank" rel="noopener noreferrer" className="button-content">
                             <button className="button">
@@ -60,9 +57,8 @@ export default function Novedades ()  {
                         <p className='card-title'>EL HOMBRE DEL CASTILLO</p>
                         <p className='card-author'>Philip K. Dick</p>
                         <p className='card-description'>
-                            En un mundo alternativo donde las Potencias del Eje ganaron la Segunda Guerra Mundial, los Estados Unidos están divididos entre Japón y Alemania.
-                            <br></br>
-                            <br></br>
+                            En un mundo alternativo donde las Potencias del Eje ganaron la Segunda Guerra Mundial,
+                            los Estados Unidos están divididos entre Japón y Alemania.
                             <br></br>
                             <br></br>
                         </p>
@@ -81,7 +77,6 @@ export default function Novedades ()  {
                         <p className='card-description'>
                             Rachel Watson viaja en el mismo tren todos los días y observa a una pareja desde la ventana.
                             Cuando la mujer desaparece misteriosamente, Rachel se involucra en la investigación.
-                            Un thriller psicológico lleno de giros inesperados y secretos oscuros.
                         </p>
                         <a href={pdfFile4} target="_blank" rel="noopener noreferrer" className="button-content">
                             <button className="button">
@@ -97,8 +92,8 @@ export default function Novedades ()  {
                         <p className='card-author'>V.E. Schwab</p>
                         <p className='card-description'>
                             Addie LaRue hace un pacto con un dios oscuro para vivir para siempre,
-                            pero a cambio, nadie puede recordarla. A lo largo de los siglos,
-                            lucha por dejar su huella en el mundo y encontrar el amor verdadero.
+                            pero nadie puede recordarla. A lo largo de los siglos,
+                            lucha por encontrar el amor.
                         </p>
                         <a href={pdfFile5} target="_blank" rel="noopener noreferrer" className="button-content">
                             <button className="button">

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import '../estilos/navBar.css';
-import Acceder from '../pages/Acceder.jsx';
-import Crear from '../pages/Crear.jsx';
+import Login from '../pages/Login.jsx';
+import Register from '../pages/Register.jsx';
 
 function NavBar() {
     return (
@@ -16,12 +16,12 @@ function NavBar() {
                     </div>
                     <div className='div-nav'>
                         <p>
-                            <Link to="/Acceder" className='enlace-nav'>
+                            <Link to="/Login" className='enlace-nav'>
                                 ACCEDER
                             </Link>
                         </p>
                         <p>
-                            <Link to="/Crear" className='enlace-nav'>
+                            <Link to="/Register" className='enlace-nav'>
                                 REGISTRAR
                             </Link>
                         </p>
@@ -29,8 +29,8 @@ function NavBar() {
                 </div>
             </nav>
             <Routes>
-                <Route path="/Acceder" element={<Acceder />} />
-                <Route path="/Crear" element={<Crear />} />
+                <Route path="/Login" element={<Login />} />
+                <Route path="/Register" element={<Register />} />
             </Routes>
         </Router>
     )
