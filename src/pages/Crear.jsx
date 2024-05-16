@@ -1,16 +1,20 @@
 import React from 'react';
 import Registrar from '../components/Registrar';
-import NavBar from '../components/navBar';
 import Footer from '../components/footer';
+import NavBar from '../components/navBar';
 
 function Crear() {
     return (
         <>
-            <NavBar />
+            <div>
+                <NavBar />
+            </div>
             <div>
                 <Registrar />
             </div>
-            <Footer />
+            <div>
+                <Footer />
+            </div>
         </>
     )
 };

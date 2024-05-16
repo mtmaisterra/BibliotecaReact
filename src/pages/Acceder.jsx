@@ -6,12 +6,16 @@ import Footer from '../components/footer';
 function Acceder() {
     return (
         <>
-
-            <NavBar />
+            <div>
+                <NavBar />
+            </div>
             <div>
                 <Ingresar />
             </div>
-            <Footer />
+            <div>
+                <Footer />
+            </div>
+
         </>
     )
 };
