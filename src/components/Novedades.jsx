@@ -1,10 +1,10 @@
-import React from 'react';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBook } from "@fortawesome/free-solid-svg-icons";
-import pdfFile1 from '../books/ElUltimoDeseo.pdf';
-import pdfFile2 from '../books/LaCiudadDeLosFantasmas.pdf';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from 'react';
 import pdfFile3 from '../books/ElHombreDelCastillo.pdf';
+import pdfFile1 from '../books/ElUltimoDeseo.pdf';
 import pdfFile4 from '../books/LaChicaDelTren.pdf';
+import pdfFile2 from '../books/LaCiudadDeLosFantasmas.pdf';
 import pdfFile5 from '../books/LaVidaInvisibleDeAddieLarue.pdf';
 import '../estilos/libros.css';
 
@@ -13,7 +13,12 @@ export default function Novedades() {
         <>
             <div>
                 <div className='title'>
-                    <h2 className='title-h2'>RECIÉN SUBIDOS</h2>
+                    <h2 className='h2'>
+                    RECIÉN SUBIDOS
+                    </h2>
+                    <a href='../pages/TodosNovedades' className='enlace'>
+                        TODOS
+                    </a>
                 </div>
                 <div className='card-gral'>
                     <div className='card'>

@@ -1,38 +1,87 @@
-const Clasicos = [
+const TodoClasicos = [
     {
         id: 1,
         image: './orgulloyPrejuicio.jpg',
         title: 'ORGULLO Y PREJUICIO',
         author: 'Jane Austen',
-        description: ' Esta novela clásica sigue la historia de Elizabeth Bennet y su complicada relación con el orgulloso Sr. Darcy.'
+        pdf:'../books/OrgulloYPrejuicio.pdf'
     },
     {
         id: 2,
         image: './laDivinaComedia.jpg',
         title: 'LA DIVINA COMEDIA',
         author: 'Dante Alighieri',
-        description: 'Un épico poema que narra el viaje del protagonista a través del Infierno, el Purgatorio y el Paraíso.'
+        pdf:'../LaDivinaComedia.pdf'
     },
     {
         id: 3,
         image: './elPrincipito.jpg',
         title: 'EL PRINCIPITO',
         author: 'Antoine de Saint-Exupéry',
-        description: 'Un pequeño príncipe que viaja por diferentes planetas y aprende valiosas lecciones sobre la vida y el amor.'
+        pdf: 'ElPrincipito.pdf'
     },
     {
         id: 4,
         image: './1984.jpg',
         title: '1984',
         author: 'George Orwell',
-        description: 'Una distopía clásica que presenta un mundo totalitario donde la privacidad y la libertad están amenazadas.'
+        pdf: '1984.pdf'
     },
     {
         id: 5,
         image: './cienAñosDeSoledad.jpg',
         title: 'CIEN AÑOS DE SOLEDAD',
         author: 'Gabriel García Márquez',
-        description: 'Una saga familiar que abarca varias generaciones en el pueblo ficticio de Macondo.'
+        pdf: 'CienAñosDeSoledad.pdf'
+    },
+    {
+        id: 6,
+        image: './CondeDeMontecristo.jpeg',
+        title: 'EL CONDE DE MONTECRISTO',
+        author: 'Alejandro Dumas',
+        pdf: 'ElCondeDeMontecristo.pdf'
+    },
+    {
+        id: 7,
+        image: './CumbresBorrascosas.jpeg',
+        title: 'CUMBRES BORRASCOSAS',
+        author: 'Emily Brontë',
+        pdf: 'CumbresBorrascosas.pdf'
+    },
+    {
+        id: 8,
+        image: './DrJekillYMrHyde.jpeg',
+        title: 'DR. JEKILL Y MR. HYDE.jpeg',
+        author: 'R. L. Stevenson',
+        pdf: 'ElDrJekillYMrHyde.pdf'
+    },
+    {
+        id: 9,
+        image: './HuckleberryFinn.jpeg',
+        title: 'LAS AVENTURAS DE HUCKLEBERRY FINN',
+        author: 'Mark Twain',
+        pdf: 'LasAventurasdeHuckleberryFinn.pdf'
+    },
+    {
+        id: 10,
+        image: './MadameBovery.jpeg',
+        title: 'MADAME BOVERY',
+        author: 'Gustave Flaubert',
+        pdf: 'MadameBovery.pdf'
+    },
+    {
+        id: 11,
+        image: './Metamorfosis.jpeg',
+        title: 'LA METAMORFOSIS',
+        author: 'Franz kafka',
+        pdf: 'LaMetamorfosis.pdf'
+    },
+    {
+        id: 12,
+        image: './RomeoYJulieta',
+        title: 'ROMEO Y JULIETA',
+        author: 'William Shakespeare',
+        pdf: 'RomeoYJulieta.pdf'
     }
 ]
 
@@ -63,7 +112,8 @@ const Novedades = [
         image: './laChicaDelTren.jpg',
         title: 'LA CHICA DEL TREN',
         author: 'Paula Hawkins',
-        description: 'Rachel Watson viaja en el mismo tren todos los días y observa a una pareja desde la ventana. Cuando la mujer desaparece misteriosamente, Rachel se involucra en la investigación. Un thriller psicológico lleno de giros inesperados y secretos oscuros.'    },
+        description: 'Rachel Watson viaja en el mismo tren todos los días y observa a una pareja desde la ventana. Cuando la mujer desaparece misteriosamente, Rachel se involucra en la investigación. Un thriller psicológico lleno de giros inesperados y secretos oscuros.'
+    },
     {
         id: 5,
         image: './laVidaInvisible.jpg',
