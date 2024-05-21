@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBook } from '@fortawesome/free-solid-svg-icons';
-import TodoClasicos from '../data/base'
+import TodoClasicos from '../data/base';
+import '../estilos/libros.css';
 
 
 function TodoClasicos() {
     return (
         <>
+        <div className='title'>
+            <h2 className='h2'>Todos los Clásicos</h2>
+        </div>
             <table>
                 <tr>
                     {TodoClasicos.map((libro, id) => (
