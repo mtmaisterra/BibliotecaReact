@@ -16,7 +16,7 @@ export default function Clasicos() {
                     COLECCIÓN CLÁSICOS
                 </h2>
                 <a href='../pages/TodosClasicos' className="enlace">
-                   TODOS
+                    TODOS
                 </a>
             </div>
             <div className='card-gral'>
@@ -31,7 +31,7 @@ export default function Clasicos() {
                             <span className='button-icon'>
                                 <FontAwesomeIcon icon={faBook} />
                             </span>
-                            Leer </button>
+                            LEER </button>
                     </a>
                 </div>
                 <div className='card'>
@@ -46,7 +46,7 @@ export default function Clasicos() {
                             <span className='button-icon'>
                                 <FontAwesomeIcon icon={faBook} />
                             </span>
-                            Leer </button>
+                            LEER </button>
                     </a>
                 </div>
                 <div className='card'>
@@ -61,7 +61,7 @@ export default function Clasicos() {
                             <span className='button-icon'>
                                 <FontAwesomeIcon icon={faBook} />
                             </span>
-                            Leer
+                            LEER
                         </button>
                     </a>
                 </div>
@@ -77,7 +77,7 @@ export default function Clasicos() {
                             <span className='button-icon'>
                                 <FontAwesomeIcon icon={faBook} />
                             </span>
-                            Leer
+                            LEER
                         </button>
                     </a>
                 </div>
@@ -93,7 +93,7 @@ export default function Clasicos() {
                             <span className='button-icon'>
                                 <FontAwesomeIcon icon={faBook} />
                             </span>
-                            Leer
+                            LEER
                         </button>
                     </a>
                 </div>

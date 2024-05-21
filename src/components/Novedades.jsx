@@ -36,7 +36,7 @@ export default function Novedades() {
                                 <span className='button-icon'>
                                     <FontAwesomeIcon icon={faBook} />
                                 </span>
-                                Leer </button>
+                                LEER </button>
                         </a>
                     </div>
                     <div className='card'>
@@ -54,7 +54,7 @@ export default function Novedades() {
                                 <span className='button-icon'>
                                     <FontAwesomeIcon icon={faBook} />
                                 </span>
-                                Leer </button>
+                                LEER </button>
                         </a>
                     </div>
                     <div className='card'>
@@ -72,7 +72,7 @@ export default function Novedades() {
                                 <span className='button-icon'>
                                     <FontAwesomeIcon icon={faBook} />
                                 </span>
-                                Leer </button>
+                                LEER </button>
                         </a>
                     </div>
                     <div className='card'>
@@ -88,7 +88,7 @@ export default function Novedades() {
                                 <span className='button-icon'>
                                     <FontAwesomeIcon icon={faBook} />
                                 </span>
-                                Leer </button>
+                                LEER </button>
                         </a>
                     </div>
                     <div className='card'>
@@ -105,7 +105,7 @@ export default function Novedades() {
                                 <span className='button-icon'>
                                     <FontAwesomeIcon icon={faBook} />
                                 </span>
-                                Leer </button>
+                                LEER </button>
                         </a>
                     </div>
                 </div>
