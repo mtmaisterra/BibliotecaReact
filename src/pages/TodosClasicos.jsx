@@ -9,7 +9,7 @@ function TodoClasicos() {
     return (
         <>
         <div className='title'>
-            <h2 className='h2'>Todos los Clásicos</h2>
+            <h2 className='h2'>CLÁSICOS DE LA LITERATURA</h2>
         </div>
             <table>
                 <tr>
@@ -25,7 +25,7 @@ function TodoClasicos() {
                                             <span className='button-icon'>
                                                 <FontAwesomeIcon icon={faBook} />
                                             </span>
-                                            Leer
+                                            LEER
                                         </button>
                                     </a>
                                 </div>

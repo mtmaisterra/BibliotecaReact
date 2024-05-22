@@ -11,77 +11,77 @@ const TodoClasicos = [
         image: './laDivinaComedia.jpg',
         title: 'LA DIVINA COMEDIA',
         author: 'Dante Alighieri',
-        pdf:'../LaDivinaComedia.pdf'
+        pdf:'../books/LaDivinaComedia.pdf'
     },
     {
         id: 3,
         image: './elPrincipito.jpg',
         title: 'EL PRINCIPITO',
         author: 'Antoine de Saint-Exupéry',
-        pdf: 'ElPrincipito.pdf'
+        pdf: '../books/ElPrincipito.pdf'
     },
     {
         id: 4,
         image: './1984.jpg',
         title: '1984',
         author: 'George Orwell',
-        pdf: '1984.pdf'
+        pdf: '../books/1984.pdf'
     },
     {
         id: 5,
         image: './cienAñosDeSoledad.jpg',
         title: 'CIEN AÑOS DE SOLEDAD',
         author: 'Gabriel García Márquez',
-        pdf: 'CienAñosDeSoledad.pdf'
+        pdf: '../books/CienAñosDeSoledad.pdf'
     },
     {
         id: 6,
         image: './CondeDeMontecristo.jpeg',
         title: 'EL CONDE DE MONTECRISTO',
         author: 'Alejandro Dumas',
-        pdf: 'ElCondeDeMontecristo.pdf'
+        pdf: '../books/ElCondeDeMontecristo.pdf'
     },
     {
         id: 7,
         image: './CumbresBorrascosas.jpeg',
         title: 'CUMBRES BORRASCOSAS',
         author: 'Emily Brontë',
-        pdf: 'CumbresBorrascosas.pdf'
+        pdf: '../books/CumbresBorrascosas.pdf'
     },
     {
         id: 8,
         image: './DrJekillYMrHyde.jpeg',
         title: 'DR. JEKILL Y MR. HYDE.jpeg',
         author: 'R. L. Stevenson',
-        pdf: 'ElDrJekillYMrHyde.pdf'
+        pdf: '../books/ElDrJekillYMrHyde.pdf'
     },
     {
         id: 9,
         image: './HuckleberryFinn.jpeg',
         title: 'LAS AVENTURAS DE HUCKLEBERRY FINN',
         author: 'Mark Twain',
-        pdf: 'LasAventurasdeHuckleberryFinn.pdf'
+        pdf: '../books/LasAventurasdeHuckleberryFinn.pdf'
     },
     {
         id: 10,
         image: './MadameBovery.jpeg',
         title: 'MADAME BOVERY',
         author: 'Gustave Flaubert',
-        pdf: 'MadameBovery.pdf'
+        pdf: '../books/MadameBovery.pdf'
     },
     {
         id: 11,
         image: './Metamorfosis.jpeg',
         title: 'LA METAMORFOSIS',
         author: 'Franz kafka',
-        pdf: 'LaMetamorfosis.pdf'
+        pdf: '../books/LaMetamorfosis.pdf'
     },
     {
         id: 12,
         image: './RomeoYJulieta',
         title: 'ROMEO Y JULIETA',
         author: 'William Shakespeare',
-        pdf: 'RomeoYJulieta.pdf'
+        pdf: '../books/RomeoYJulieta.pdf'
     }
 ]
 
