@@ -5,7 +5,7 @@ import TodoClasicos from '../data/base';
 import '../estilos/libros.css';
 
 
-function TodoClasicos() {
+export default function MasClasicos() {
     return (
         <>
         <div className='title'>
@@ -36,5 +36,4 @@ function TodoClasicos() {
             </table>
         </>
     )
-}
-export default TodoClasicos;
+};

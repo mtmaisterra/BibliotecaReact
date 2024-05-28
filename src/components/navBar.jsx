@@ -1,33 +1,29 @@
 import React from 'react';
-import { Link, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import { NavLink as Router } from 'react-router-dom';
 import '../estilos/navBar.css';
-/* import Login from '../pages/Login.jsx';
-import Register from '../pages/Register.jsx'; */
 
-function NavBar() {
+export default function NavBar() {
     return (
-        /*  <Router> */
         <nav className='body-div'>
-            <div className="navBar" >
+            <div className="navBar">
                 <div className='div-nombre-nav'>
                     <p className='p-nav'>
                         BIBLIOTECA "EL CHACHO"
                     </p>
                 </div>
                 <div className='div-nav'>
-                    <p>
-                        <a href='../pages/Login' className='enlace-nav'>
-                            ACCEDER
-                        </a>
-                    </p>
-                    <p>
-                        <a href='../pages/Register' className='enlace-nav'>
-                            REGISTRAR
-                        </a>
-                    </p>
+                    <NavLink to='/acerca' className='enlace-nav'>
+                        ACERCA
+                    </NavLink>
+                    <NavLink to='/login' className='enlace-nav'>
+                        ACCEDER
+                    </NavLink>
+                    <NavLink to='/register' className='enlace-nav'>
+                        REGISTRAR
+                    </NavLink>
                 </div>
             </div>
         </nav>
     )
 };
-export default NavBar;
+
