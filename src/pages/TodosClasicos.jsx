@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBook } from '@fortawesome/free-solid-svg-icons';
-import TodoClasicos from '../data/base';
-import '../estilos/libros.css';
+import '../css/libros.css';
 
 
 export default function MasClasicos() {

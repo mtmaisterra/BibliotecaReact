@@ -1,11 +1,9 @@
+import '../css/cuenta.css';
 import React from 'react';
-import Footer from '../components/footer';
-import NavBar from '../components/navBar';
 
-export default function Register() {
+const Register = () => {
     return (
-        <>
-            <NavBar />
+        <div>
             <form className="form">
                 <h3 className="title">Regístrate </h3>
                 <div className="container">
@@ -33,7 +31,7 @@ export default function Register() {
                 <button className="submit">Registrar</button>
                 <p className="sign">¿Ya tiene cuenta? <a href="../pages/Login.jsx">Accede</a> </p>
             </form>
-            <Footer />
-        </>
+        </div>
     )
-};
+}
+export default Register;

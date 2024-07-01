@@ -1,6 +1,6 @@
 import React from 'react';
-import { NavLink as Router } from 'react-router-dom';
-import '../estilos/navBar.css';
+import { Link } from 'react-router-dom';
+import '../css/navBar.css';
 
 export default function NavBar() {
     return (
@@ -8,19 +8,19 @@ export default function NavBar() {
             <div className="navBar">
                 <div className='div-nombre-nav'>
                     <p className='p-nav'>
-                        BIBLIOTECA "EL CHACHO"
+                        BIBLIOTECA "El Chacho"
                     </p>
                 </div>
                 <div className='div-nav'>
-                    <NavLink to='/acerca' className='enlace-nav'>
+                    <Link to='/acerca' className='enlace-nav'>
                         ACERCA
-                    </NavLink>
-                    <NavLink to='/login' className='enlace-nav'>
+                    </Link>
+                    <Link to='/login' className='enlace-nav'>
                         ACCEDER
-                    </NavLink>
-                    <NavLink to='/register' className='enlace-nav'>
+                    </Link>
+                    <Link to='/register' className='enlace-nav'>
                         REGISTRAR
-                    </NavLink>
+                    </Link>
                 </div>
             </div>
         </nav>

@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function Acerca()  {
+const Acerca = () => {
   return (
-    <div>
-        
-    </div>
+    <div>Acerca</div>
   )
 }
+export default Acerca;
+

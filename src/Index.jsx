@@ -1,12 +1,12 @@
 import React from 'react';
-import './estilos/App.css';
-import Home from './pages/Home';
+import ReactDOM from 'react-dom/client';
+import './css/App.css';
+import App from './App';
 
-export default function Index() {
-  return (
-    <>
-      <Home /> 
-     
-    </>
-  )
-};
+
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />   
+  </React.StrictMode>,
+)

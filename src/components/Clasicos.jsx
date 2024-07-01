@@ -6,18 +6,89 @@ import pdfFile5 from '../books/CienAñosDeSoledad.pdf';
 import pdfFile3 from '../books/ElPrincipito.pdf';
 import pdfFile2 from '../books/LaDivinaComedia.pdf';
 import pdfFile1 from '../books/OrgulloYPrejuicio.pdf';
-import '../estilos/libros.css';
+import '../css/libros.css';
+import { Link } from "react-router-dom";
 
-export default function Clasicos() {
+const LibrosClasicos = [
+
+    {
+        id: 1,
+        title: '',
+        author: '',
+        image: '',
+        description: '',
+        pdf: ''
+    },
+    {
+        id: 2,
+        title: '',
+        author: '',
+        image: '',
+        description: '',
+        pdf: ''
+    },
+    {
+        id: 3,
+        title: '',
+        author: '',
+        image: '',
+        description: '',
+        pdf: ''
+    },
+    {
+        id: 4,
+        title: '',
+        author: '',
+        image: '',
+        description: '',
+        pdf: ''
+    },
+    {
+        id: 5,
+        title: '',
+        author: '',
+        image: '',
+        description: '',
+        pdf: ''
+    },
+    {
+        id: 6,
+        title: '',
+        author: '',
+        image: '',
+        description: '',
+        pdf: ''
+    },
+    {
+        id: 7,
+        title: '',
+        author: '',
+        image: '',
+        description: '',
+        pdf: ''
+    },
+    {
+        id: 8,
+        title: '',
+        author: '',
+        image: '',
+        description: '',
+        pdf: ''
+    },
+]
+
+const Clasicos = () =>{
     return (
         <>
             <div className='title'>
                 <h2 className='h2'>
                     COLECCIÓN CLÁSICOS
                 </h2>
-                <a href='../pages/TodosClasicos' className="enlace">
-                    TODOS
-                </a>
+                <div className="div-enlace">
+                <Link to='/TodosClasicos' className="enlace">
+                   <button className="button-enlace">Todos</button>
+                </Link>
+                </div>
             </div>
             <div className='card-gral'>
                 <div className='card'>
@@ -101,4 +172,5 @@ export default function Clasicos() {
         </>
     );
 };
+export default Clasicos;
 

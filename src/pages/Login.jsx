@@ -1,11 +1,9 @@
 import React from 'react';
-import NavBar from '../components/navBar';
-import Footer from '../components/footer';
+import '../css/cuenta.css';
 
-export default function Login() {
+const Login = () => {
     return (
-        <>
-            <NavBar />
+        <div>
             <form className="form">
                 <h3 className="title">Inicia sesión en tu cuenta</h3>
                 <div className="container">
@@ -22,7 +20,7 @@ export default function Login() {
                     <a className='sign' href="./pages/Register">Regístrate</a>
                 </p>
             </form>
-            <Footer />
-        </>
+        </div>
     )
-};
+}
+export default Login;
