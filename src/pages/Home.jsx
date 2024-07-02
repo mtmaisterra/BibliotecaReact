@@ -5,13 +5,13 @@ import Novedades from '../components/Novedades';
 const Home = () => {
   return (
     <div>
-    <div>
-<Clasicos />
-    </div>
-    <div>
-      <Novedades/>
-    </div>
-    
+      <div>
+        <Clasicos />
+      </div>
+      <div>
+        <Novedades />
+      </div>
+
     </div>
   )
 }

@@ -4,25 +4,27 @@
     height: auto;
 }
 
-.title {
-    display: flex;
-    width: 95%;
+.body {
     justify-content: space-between;
     margin-bottom: 60px;
     margin-top: 40px;
-    font-size: 20px;
     text-align: center;
+}
+
+.title {
+    text-align: center;
+    padding: 1rem;
+    margin: 4rem;
     font-family: 'Roboto';
-}
-
-.h2 {
-    text-align: left;
-    padding: 4px;
-    margin: 20px;
+    font-size: 2rem;
     text-decoration: none;
-    color: black;    
+    color: rgb(3, 80, 3);
 }
-
+.button-enlace{
+    background-color: darkgreen;
+    padding: 1rem;
+    border-radius: 1rem;
+}
 .enlace {
     text-decoration: none;
     padding: 10px;

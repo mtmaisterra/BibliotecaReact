@@ -15,11 +15,11 @@ export default function NavBar() {
                     <Link to='/acerca' className='enlace-nav'>
                         ACERCA
                     </Link>
-                    <Link to='/login' className='enlace-nav'>
-                        ACCEDER
+                    <Link to='/TodosClasicos' className='enlace-nav'>
+                        CLÁSICOS
                     </Link>
-                    <Link to='/register' className='enlace-nav'>
-                        REGISTRAR
+                    <Link to='/TodosNovedades' className='enlace-nav'>
+                        NOVEDADES
                     </Link>
                 </div>
             </div>

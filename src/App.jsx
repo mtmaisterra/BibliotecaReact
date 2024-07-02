@@ -5,8 +5,6 @@ import NavBar from './components/navBar';
 import Footer from './components/footer';
 import Acerca from './pages/Acerca';
 import Home from './pages/Home';
-import Login from './pages/Login';
-import Register from './pages/Register';
 import TodosClasicos from './pages/TodosClasicos';
 import TodosNovedades from './pages/TodosNovedades';
 
@@ -18,8 +16,6 @@ function App() {
         <Routes>
           <Route path='/Acerca' element={<Acerca />} />
           <Route path='/*' element={<Home />} />
-          <Route path='/Login' element={<Login />} />
-          <Route path='/Register' element={<Register />} />
           <Route path='/TodosClasicos' element={<TodosClasicos />} />
           <Route path='/TodosNovedades' element={<TodosNovedades />} />
         </Routes>
