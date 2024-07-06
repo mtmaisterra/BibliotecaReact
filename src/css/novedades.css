@@ -1,0 +1,138 @@
+.card-gral {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.body {
+    justify-content: space-between;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.containerTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.titleNovedades {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 3rem;
+    text-decoration: none;
+    color: rgb(3, 80, 3);
+}
+
+.buttonTodosNovedades {
+    background-color: rgb(2, 79, 2);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.enlace {
+    text-decoration: none;
+    padding: 10px;
+    width: 5%;
+    height: 3%;
+    margin: 20px;
+    color: black;
+}
+
+.enlace:hover {
+    border: 0.25em solid white;
+    background-color: rgb(9, 59, 3);
+    color: white;
+    border-radius: 2em;
+    background-color: white;
+    color: rgb(9, 59, 3);
+    /*  border: 4px solid white;*/
+    border-radius: 8px;
+    box-shadow: 8px 8px rgb(136, 134, 134)
+}
+
+.card {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(252, 252, 252);
+    border-radius: 12px;
+    margin-top: 60px;
+    padding-bottom: 20px;
+    margin: 20px;
+    box-shadow: 8px 8px 0 0 rgba(125, 124, 124, 0.713);
+}
+
+.card-img {
+    width: 100%;
+    height: 150%;
+    margin-top: -60px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    border-right: 8px solid rgb(125, 124, 124, 0.713);
+}
+
+.card-title {
+    font-size: 28px;
+    text-align: center;
+}
+
+.card-author {
+    font-size: 28px;
+    text-align: center;
+}
+
+.card-description {
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.button {
+    position: relative;
+    overflow: hidden;
+    margin-left: 100px;
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    background-color: rgb(9, 59, 3);
+    background-size: 400%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover::before {
+    transform: scaleX(1);
+}
+
+.button-content {
+    position: relative;
+    z-index: 1;
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(82.3deg,
+            rgb(149, 148, 148) 10.8%,
+            rgb(24, 99, 1) 94.3%);
+    transition: all 0.475s;
+}
+
+.button-icon {
+    padding-right: 1em;
+}

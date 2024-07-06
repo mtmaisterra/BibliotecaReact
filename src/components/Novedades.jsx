@@ -7,7 +7,7 @@ import pdf1 from '../books/ElUltimoDeseo.pdf';
 import pdf4 from '../books/LaChicaDelTren.pdf';
 import pdf2 from '../books/LaCiudadDeLosFantasmas.pdf';
 import pdf5 from '../books/LaVidaInvisibleDeAddieLarue.pdf';
-import '../css/libros.css';
+import '../css/novedades.css';
 
 const todasNovedades = [
     {
@@ -56,14 +56,14 @@ const todasNovedades = [
 const Novedades = () => {
     return (
         <div>
-            <div className='title'>
-                <h2 className='h2'>
-                    RECIÉN SUBIDOS
-                </h2>
-                <Link to='/TodosNovedades' className='enlace'>
-                    <button className="button-enlace">TODOS</button>
-                </Link>
-            </div>
+            <div className="containerTitle">
+                    <h2 className='titleNovedades'>
+                        COLECCIÓN NOVEDADES
+                    </h2>
+                    <Link to='/TodosNovedades'>
+                        <button className="buttonTodosNovedades">Todos</button>
+                    </Link>
+                </div>
             <div className='card-gral'>
                 {todasNovedades.map((novedades, id) => (
                     <div className='card' key={novedades.id}>

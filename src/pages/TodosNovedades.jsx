@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/libros.css';
+import '../css/novedades.css';
 
 const TodosNovedades = () => {
   return (

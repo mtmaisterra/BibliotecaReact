@@ -1,7 +1,7 @@
 import { faBook } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from 'react';
-import '../css/libros.css';
+import '../css/clasicos.css';
 import { Link } from "react-router-dom";
 import pdf1 from '../books/OrgulloYPrejuicio.pdf';
 import pdf2 from '../books/LaDivinaComedia.pdf';
@@ -57,12 +57,12 @@ const Clasicos = () => {
     return (
         <>
             <div className='body'>
-                <h2 className='title'>
-                    COLECCIÓN CLÁSICOS
-                </h2>
-                <div className="div-enlace">
+                <div className="containerTitle">
+                    <h2 className='titleClasicos'>
+                        COLECCIÓN CLÁSICOS
+                    </h2>
                     <Link to='/TodosClasicos'>
-                        <button className="button-enlace">Todos</button>
+                        <button className="buttonTodosClasicos">Todos</button>
                     </Link>
                 </div>
                 <div className='card-gral'>
