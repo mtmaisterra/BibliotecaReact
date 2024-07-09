@@ -1,0 +1,66 @@
+.body-login {
+    display: flex;
+    width: 100%;
+    margin-bottom: 2rem;
+    height: auto;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 60%;
+    height: auto;
+    margin: 5%;
+    padding: 5%;
+    color:white;
+    background-color: rgb(11, 47, 2);
+    border-radius: 1rem;
+}
+
+.title-form {
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    font-family: 'Roboto';
+}
+
+.container-form {
+    width: 50%;
+    height: 10%;
+    margin: 5%;
+    padding: 2%;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-family: 'Roboto';
+    text-decoration: none;
+}
+.sign-form{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Roboto';
+    padding: 2%;
+    background-color: blue;
+    border-radius: 4em;
+    text-decoration: none;
+}
+.label-form{
+    width: 100%;
+    margin: 0.5rem;
+    text-align: center;
+    align-content: center;
+}
+.input-form{
+    margin: 0.5rem;
+    width: 170%;
+    height: 50%;
+    text-align: center;
+}

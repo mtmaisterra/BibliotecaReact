@@ -15,8 +15,7 @@ const LibrosClasicos = [
         id: 1,
         title: 'ORGULLO Y PREJUICIO',
         author: 'Jane Austen',
-        image: './orgulloyPrejuicio.jpg',
-        description: 'Esta novela clásica sigue la historia de Elizabeth Bennet y su complicada relación con el orgulloso Sr. Darcy.',
+        image: './orgulloyPrejuicio.jpg',        
         pdf: pdf1
     },
     {
@@ -24,7 +23,6 @@ const LibrosClasicos = [
         title: 'LA DIVINA COMEDIA',
         author: 'Dante Alighieri',
         image: './laDivinaComedia.jpg',
-        description: 'Un épico poema que narra el viaje del protagonista a través del Infierno, el Purgatorio y el Paraíso.',
         pdf: pdf2
     },
     {
@@ -32,7 +30,6 @@ const LibrosClasicos = [
         title: 'EL PRINCIPITO',
         author: 'Antoine de Saint-Exupéry',
         image: './elPrincipito.jpg',
-        description: 'Un pequeño príncipe que viaja por diferentes planetas y aprende valiosas lecciones sobre la vida y el amor.',
         pdf: pdf3
     },
     {
@@ -40,7 +37,6 @@ const LibrosClasicos = [
         title: '1984',
         author: 'George Orwell',
         image: './1984.jpg',
-        description: 'Una distopía clásica que presenta un mundo totalitario donde la privacidad y la libertad están amenazadas.',
         pdf: pdf4
     },
     {
@@ -48,7 +44,6 @@ const LibrosClasicos = [
         title: 'CIEN AÑOS DE SOLEDAD',
         author: 'Gabriel García Márquez',
         image: './cienAñosDeSoledad.jpg',
-        description: 'Una saga familiar que abarca varias generaciones en el pueblo ficticio de Macondo.',
         pdf: pdf5
     }
 ]
@@ -59,7 +54,7 @@ const Clasicos = () => {
             <div className='body'>
                 <div className="containerTitle">
                     <h2 className='titleClasicos'>
-                        COLECCIÓN CLÁSICOS
+                        CLÁSICOS DESTACADOS
                     </h2>
                     <Link to='/TodosClasicos'>
                         <button className="buttonTodosClasicos">Todos</button>
@@ -71,7 +66,6 @@ const Clasicos = () => {
                             <img className='card-img' src={clasicos.image} />
                             <h2 className='card-title'>{clasicos.title}</h2>
                             <h2 className="card-author">{clasicos.author}</h2>
-                            <h3 className='card-description'>{clasicos.description} </h3>
                             <a href={clasicos.pdf} target="_blank" className="button-content">
                                 <button className="button">
                                     <span className='button-icon'>

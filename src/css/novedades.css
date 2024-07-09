@@ -35,6 +35,14 @@
     color: white;
 }
 
+.buttonTodosNovedades:hover{
+    background-color: white;
+    color: rgb(9, 59, 3);
+    border-radius: 8px;
+    box-shadow: 8px 8px rgb(136, 134, 134)
+}
+
+
 .enlace {
     text-decoration: none;
     padding: 10px;

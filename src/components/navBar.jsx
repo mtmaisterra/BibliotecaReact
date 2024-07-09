@@ -8,18 +8,21 @@ export default function NavBar() {
             <div className="navBar">
                 <div className='div-nombre-nav'>
                     <p className='p-nav'>
-                        BIBLIOTECA "El Chacho"
+                        BIBLIOTECA VIRTUAL "EL CHACHO"
                     </p>
                 </div>
                 <div className='div-nav'>
+                    <Link to='/inicio' className='enlace-nav'>
+                        INICIO
+                    </Link>
                     <Link to='/acerca' className='enlace-nav'>
                         ACERCA
                     </Link>
-                    <Link to='/TodosClasicos' className='enlace-nav'>
-                        CLÁSICOS
+                    <Link to='/ingresar' className='enlace-nav'>
+                        INGRESAR
                     </Link>
-                    <Link to='/TodosNovedades' className='enlace-nav'>
-                        NOVEDADES
+                    <Link to='/registrar' className='enlace-nav'>
+                        REGISTRAR
                     </Link>
                 </div>
             </div>

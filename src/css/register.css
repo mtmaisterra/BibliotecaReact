@@ -1,0 +1,146 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-content: center;
+}
+
+
+.form {
+    /* display: flex;
+    flex-direction: column; */   
+    width: 50%;
+    max-width: 350px;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 20px;
+    align-items: center;
+    margin-left: 50rem;
+}
+
+.title-form {
+    font-size: 4rem;
+    color: rgb(2, 87, 2);
+    font-weight: 600;
+    padding-top: 1rem;
+    /* display: flex; */
+    text-align: center;
+    /* padding-left: 30px; */
+}
+
+/* .title-form::before,
+.title-form::after {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    left: 0px;
+    background-color: rgb(2, 87, 2);
+    ;
+}
+
+.title-form::before {
+    width: 18px;
+    height: 18px;
+    background-color: rgb(2, 87, 2);
+    ;
+}
+
+.title-form::after {
+    width: 18px;
+    height: 18px;
+    animation: pulse 1s linear infinite;
+} */
+
+.message-form,
+.ingresar-form {
+    color: rgba(88, 87, 87, 0.822);
+    font-size: 14px;
+}
+
+.ingresar-form {
+    text-align: center;
+}
+
+.ingresar-form a {
+    color: rgb(2, 87, 2);
+}
+
+.ingresar-form a:hover {
+    text-decoration: underline rgb(2, 87, 2);
+}
+
+.flex-form {
+    display: flex;
+    width: 100%;
+}
+
+.form label {
+    position: relative;
+    margin: 1rem;
+}
+
+.form label .input-form {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form label .input-form+span {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: white;
+    font-size: 1em;
+    cursor: text;
+    transition: 0.3s ease;
+    text-align: center;
+}
+
+.form label .input-form:placeholder-shown+span {
+    top: 15px;
+    font-size: 0.9em;
+}
+
+.form label .input-form:focus+span,
+.form label .input:valid+span {
+    top: 30px;
+    font-size: 0.7em;
+    font-weight: 600;
+}
+
+.form label .input-form:valid+span {
+    color: rgb(2, 87, 2);
+}
+
+.registrar-form {
+    border: none;
+    outline: none;
+    background-color: rgb(2, 87, 2);
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+    transform: .3s ease;
+}
+
+.registrar-form:hover {
+    background-color: rgb(2, 87, 2);
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(0.9);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(1.8);
+        opacity: 0;
+    }
+}
