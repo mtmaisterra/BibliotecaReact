@@ -1,0 +1,38 @@
+.body-about {
+    width: 100%;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+    align-items: center;
+}
+
+.container-about {
+    width: 100%;
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title-about {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.image-about {
+    width: 40%;
+    margin: 2rem;
+}
+
+.img-about {
+    width: 100%;
+    border-radius: 3rem;
+}
+
+.description-about {
+    width: 60%;
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: justify;
+    margin-right: 1rem;
+
+}

@@ -6,8 +6,8 @@ import '../css/footer.css';
   return (
     <>
     <footer className='footer-gral'>
-      <p className='footer-text'> &copy; TODOS LOS DERECHOS RESERVADOS - {year} - MAISTERRA DIGITAL DESINGS </p>
-    </footer>
+      <p className='footer-text'><img src='/MaisterraLogo.jpg' className='footer-img'/> &copy; TODOS LOS DERECHOS RESERVADOS - {year} - MAISTERRA DIGITAL DESINGS </p>
+          </footer>
     </>
   )
 };

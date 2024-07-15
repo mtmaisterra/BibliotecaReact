@@ -6,6 +6,9 @@ export default function NavBar() {
     return (
         <nav className='body-div'>
             <div className="navBar">
+                <div className='image-nav'>
+                    <img className='img-nav' src='/logoBiblioteca.jpg'></img>
+                </div>
                 <div className='div-nombre-nav'>
                     <p className='p-nav'>
                         BIBLIOTECA VIRTUAL "EL CHACHO"
@@ -15,14 +18,14 @@ export default function NavBar() {
                     <Link to='/inicio' className='enlace-nav'>
                         INICIO
                     </Link>
-                    <Link to='/acerca' className='enlace-nav'>
+                    <Link to='/about' className='enlace-nav'>
                         ACERCA
                     </Link>
-                    <Link to='/ingresar' className='enlace-nav'>
-                        INGRESAR
+                    <Link to='/TodosClasicos' className='enlace-nav'>
+                        CLASICOS
                     </Link>
-                    <Link to='/registrar' className='enlace-nav'>
-                        REGISTRAR
+                    <Link to='/TodosNovedades' className='enlace-nav'>
+                        NOVEDADES
                     </Link>
                 </div>
             </div>
