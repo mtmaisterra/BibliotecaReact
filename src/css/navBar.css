@@ -4,7 +4,6 @@
     align-items: center;
     border-radius: 12px;
     margin: 10px;
-    flex-direction: column;
 }
 
 .navBar {
@@ -16,14 +15,16 @@
     padding: 8px;
 }
 
-.image-nav{
+.image-nav {
     width: 10%;
     padding: 0.25rem;
 }
-.img-nav{
+
+.img-nav {
     width: 90%;
     border-radius: 1rem 3rem 2rem 4rem;
 }
+
 .div-nombre-nav {
     padding: 10px;
 }
@@ -103,4 +104,31 @@
     /* border: 4px solid white;*/
     border-radius: 8px;
     box-shadow: 8px 8px rgb(136, 134, 134)
+}
+
+@media screen and (max-width:600px) {
+    .body-div {
+        background-color: blue;
+        justify-content: left;
+        color: white;
+        align-items: center;
+        border-radius: 2rem;
+        margin: 1.5rem;
+    }
+
+    .navBar {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        width: 95%;
+        padding: 2rem;
+    }
+    .div-nav {
+        width: 25%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        display: flex;
+    }
 }

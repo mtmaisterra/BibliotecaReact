@@ -26,3 +26,35 @@
     border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 
+@media screen and (max-width:600px) {
+    .footer-gral {
+        background-color: blue;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        width: 99%;
+        height: 5%;
+        border-radius: 6rem;
+        align-items: center;
+        margin: 3rem;
+    }
+    
+    .footer-text {
+        display: flex;
+        flex-direction: row;
+        font-size: 2rem;
+        padding: 1rem;
+        text-align: center;
+        align-items: center;
+        margin-left: 0.5rem;
+    }
+    
+    .footer-img {
+        width: 6rem;
+        align-items: center;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+        border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    }
+
+}
